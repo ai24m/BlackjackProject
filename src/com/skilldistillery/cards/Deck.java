@@ -1,44 +1,46 @@
 package com.skilldistillery.cards;
-
-import java.util.*;
+import java.util.*; 
 
 public class Deck {
-	private List<Card> deck;
-
-	public Deck(List<Card> deck) {
-		deck = generateDeck();
+	private List<Card> cards = new ArrayList<>(52);
+	
+	public Deck(List<Card> cards) {
+		super();
+		this.cards = cards;
 	}
 
-	public List<Card> generateDeck() { // generate deck
-		List<Card> deck = new ArrayList<>(52);
-		for (Suit suit : Suit.values()) { // four suits x fourteen ranks
-			for (Rank rank : Rank.values()) {
-				deck.add(new Card(suit, rank)); // Card pairs suit to rank
-			}
-		}
-		return deck;
-	}
-
-	public Deck() {
-	}
+	public Deck() {}
 
 	public List<Card> getCards() {
-		return deck;
+		return cards;
 	}
 
 	public void setCards(List<Card> cards) {
-		this.deck = cards;
+		this.cards = cards;
 	}
-
+	
+	//generate deck  
+	public void generateDeck() { 
+		for (Suit suit : Suit.values()) { //four suits x fourteen ranks 
+			for (Rank rank : Rank.values()) {
+				cards.add(new Card(suit, rank)); //Card pairs suit to rank 
+			}
+		}
+	}
+	
 	public void shuffle() {
-		Collections.shuffle(deck);
+		Collections.shuffle(cards);
 	}
-
-	public Card dealCard() {// returns a single card
-		return deck.remove(0);
+	
+	public Card dealCard() {//returns a single card
+		return cards.remove(0);
 	}
-
+	
 	public int deckSize() {
-		return deck.size();
+		return cards.size();	
 	}
-}
+	
+	
+ }
+
+
