@@ -10,6 +10,9 @@ Having never played Blackjack prior to programming the application, learning the
 
 # Technologies/Resources Used:
 *Skilldistillery github class resources:  implementing methods, abstract classes, polymorphism, using debugger in Eclipse
+
 *Stackoverflow: catching user input errors to prevent early termination of program
+
 *Bicyclecards.com: learning the rules of Blackjack and taking note of exceptions in game play
+
 *Eclipse
