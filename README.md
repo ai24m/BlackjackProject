@@ -1,5 +1,5 @@
 # Blackjack Project 🂡
-[![Watch the video](https://github.com/ai24m/BlackjackProject/blob/main/Screen%20Shot%202022-01-08%20at%205.33.01%20PM.png)](https://github.com/ai24m/BlackjackProject/blob/main/blackjackrecording.mp4)
+[![Watch the video](https://github.com/ai24m/BlackjackProject/blob/main/Screen%20Shot%202022-01-08%20at%205.33.01%20PM.png)](https://github.com/ai24m/BlackjackProject/blob/main/BlackJackRecording.mp4)
 
 
 ## Description:
