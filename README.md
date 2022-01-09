@@ -1,5 +1,6 @@
 # Blackjack Project 🂡
-[![Watch the video](https://github.com/ai24m/BlackjackProject/blob/main/Screen%20Shot%202022-01-08%20at%205.33.01%20PM.png)](https://github.com/ai24m/BlackjackProject/blob/main/BlackJackRecording.mp4)
+
+https://user-images.githubusercontent.com/89150394/148664745-cbe86d1b-d3e2-4938-889b-f4e65c1c6f7b.mp4
 
 
 ## Description:
